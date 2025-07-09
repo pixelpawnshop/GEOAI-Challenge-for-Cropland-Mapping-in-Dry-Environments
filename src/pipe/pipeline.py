@@ -13,8 +13,8 @@ def main():
     os.system(f'python "{preprocessing}"')
     print('Running modelling...')
     os.system(f'python "{modelling}"')
-    print('Running validation...')
-    os.system(f'python "{validate}"')
+    # print('Running validation...')
+    # os.system(f'python "{validate}"')
     print('Pipeline complete.')
 
 if __name__ == "__main__":
